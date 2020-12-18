@@ -1,0 +1,14 @@
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screen */
+
+/* Fonts */
+@import "fonts.css";
+
+body {
+  font-family: "NanumBarunpenR", "sans-serif";
+  letter-spacing: 1;
+}
