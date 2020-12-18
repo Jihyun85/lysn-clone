@@ -4,3 +4,8 @@
   font-size: 20px;
   margin: 20px 0px;
 }
+
+.content-title__column:last-child {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
