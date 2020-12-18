@@ -1,18 +1,9 @@
 @font-face {
-  font-family: "netmarbleM";
-  src: url("fonts/netmarbleM.ttf");
-}
-
-@font-face {
-  font-family: "netmarbleL";
-  src: url("fonts/netmarbleL.ttf");
-}
-
-@font-face {
-  font-family: "netmarbleB";
-  src: url("fonts/netmarbleB.ttf");
+  font-family: "SDMiSaeng";
+  src: url("fonts/SDMiSaeng.ttf");
 }
 
 body {
-  font-family: "netmarbleB", "sans-serif";
+  font-family: "SDMiSaeng", "sans-serif";
+  font-weight: bold;
 }
