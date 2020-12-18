@@ -1,9 +1,18 @@
 @font-face {
-  font-family: "NanumBarunpenR";
-  src: url("fonts/NanumBarunpenR.ttf");
+  font-family: "netmarbleM";
+  src: url("fonts/netmarbleM.ttf");
 }
 
 @font-face {
-  font-family: "NanumBarunpenB";
-  src: url("fonts/NanumBarunpenB.ttf");
+  font-family: "netmarbleL";
+  src: url("fonts/netmarbleL.ttf");
+}
+
+@font-face {
+  font-family: "netmarbleB";
+  src: url("fonts/netmarbleB.ttf");
+}
+
+body {
+  font-family: "netmarbleB", "sans-serif";
 }

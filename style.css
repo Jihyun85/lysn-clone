@@ -2,13 +2,9 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/screen-header.css";
 
 /* Screen */
 
 /* Fonts */
 @import "fonts.css";
-
-body {
-  font-family: "NanumBarunpenR", "sans-serif";
-  letter-spacing: 1;
-}
