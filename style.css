@@ -1,10 +1,19 @@
 @import "reset.css";
+@import "variable.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/screen-header.css";
+@import "components/content-title.css";
+@import "components/user-component.css";
 
 /* Screen */
 
 /* Fonts */
 @import "fonts.css";
+
+main {
+  padding-left: var(--horizontal-space);
+  padding-right: var(--horizontal-space);
+  color: rgba(0, 0, 0, 0.8);
+}
