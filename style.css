@@ -11,6 +11,7 @@
 
 /* Screen */
 @import "screens/chats.css";
+@import "screens/community.css";
 
 /* Fonts */
 @import "fonts.css";
