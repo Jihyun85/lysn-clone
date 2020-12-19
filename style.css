@@ -9,6 +9,7 @@
 @import "components/nav-bar.css";
 
 /* Screen */
+@import "screens/chats.css";
 
 /* Fonts */
 @import "fonts.css";
