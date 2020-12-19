@@ -34,3 +34,8 @@
 .user-component__column > i {
   margin-left: 7px;
 }
+
+.user-component__column--lg img {
+  width: 60px;
+  height: 60px;
+}
