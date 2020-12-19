@@ -19,16 +19,26 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 22px;
+  object-fit: cover;
+}
+
+.user-component__title {
+  display: flex;
+  align-items: center;
 }
 
 .user-component__column h4 {
   font-size: 23px;
 }
 
+.user-component__column h5 {
+  margin-top: 5px;
+}
+
 .user-component__column h5,
 .user-component__column:last-child {
-  font-size: 19px;
-  color: rgba(0, 0, 0, 0.35);
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .user-component__column > i {
@@ -38,4 +48,6 @@
 .user-component__column--lg img {
   width: 60px;
   height: 60px;
+  padding: 2px;
+  border: 2px solid #6041ff;
 }

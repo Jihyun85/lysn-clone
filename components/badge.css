@@ -1,0 +1,19 @@
+.badge {
+  display: block;
+  font-size: 12px;
+  padding: 2.5px 4px 3px 5px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 3px;
+}
+
+.badge--violet {
+  background: linear-gradient(-140deg, #d18cff, #6041ff);
+  margin-right: 5px;
+}
+
+.badge--yellow {
+  background-color: #fed500;
+}
