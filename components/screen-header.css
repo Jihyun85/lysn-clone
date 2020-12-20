@@ -76,6 +76,7 @@
   padding: 10px 0px;
   border-top: var(--main-border);
   background-color: white;
+  margin-bottom: 30px;
 }
 
 .heart-header i {

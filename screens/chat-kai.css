@@ -1,3 +1,49 @@
 .main-chat {
-  background-color: sandybrown;
+  background-color: var(--pink);
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message__column img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message__title {
+  display: flex;
+  margin-bottom: 5px;
+}
+.message__name {
+  font-size: 20px;
+}
+
+.message__content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  font-size: 18px;
+  padding: 10px 12px;
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+}
+
+.message__content span {
+  display: block;
+  margin-right: 10px;
+}
+
+.message__time {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: rgb(116, 113, 113);
 }
