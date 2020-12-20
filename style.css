@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "variable.css";
 
+/* Fonts */
+@import "fonts.css";
+
 /* Components */
 @import "components/status-bar.css";
 @import "components/screen-header.css";
@@ -14,9 +17,7 @@
 @import "screens/community.css";
 @import "screens/more.css";
 @import "screens/calendar.css";
-
-/* Fonts */
-@import "fonts.css";
+@import "screens/chat-kai.css";
 
 main {
   padding-left: var(--horizontal-space);
